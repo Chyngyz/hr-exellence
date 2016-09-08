@@ -1,0 +1,52 @@
+.hr__panel {
+	position: relative;
+	margin-bottom: 10px;
+
+	&__img {
+		width: 100%;
+	}
+
+	&__bottombg {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: auto;
+	}
+
+	&__title {
+		position: absolute;
+	    bottom: 7px;
+	    right: 10px;
+	    font-size: 18px;
+	    font-weight: bold;
+	    color: #fff;
+	}
+}
+
+.hr__nom__details {
+	text-align: center;
+	font-size: 14px;
+	color: #333;
+	margin-bottom: 15px;
+	line-height: 1.3;
+}
+
+.hr__nominee {
+	@include MQM(SM) {
+		width: 300px;
+		margin: 0 auto;
+    	float: none;
+	}
+
+	&--secondary {
+		.hr__panel__title {
+			bottom: 3px;
+			right: 5px; 
+			@include MQM(SM) {
+				font-size: 12px;
+			}	
+		}
+		
+	}
+}

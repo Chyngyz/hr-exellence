@@ -1,0 +1,29 @@
+.hr__exellence {
+	background: url('../images/bg-img.png') repeat;
+
+	&__content {
+		background-color: #FFF;
+
+		h2 {
+			color: #1da3dd;
+			text-transform: uppercase;
+			font-weight: bold;
+			font-size: 28px;
+			margin-top: 35px;
+			margin-bottom: 20px;
+		}
+
+		p {
+			color: #333;
+			padding: 0 10px;
+		}
+	}
+
+	&__desc {
+		background: url("../images/people-1.png") no-repeat 2% 55%, url("../images/people-2.png") no-repeat  98% 55%;
+		
+		@include MQM(SM) {
+			background: none;
+		}
+	}
+}

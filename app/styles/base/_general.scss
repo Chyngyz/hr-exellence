@@ -1,0 +1,12 @@
+$opensans: 'Open Sans', sans-serif;
+$opensanscond: 'Open Sans Condensed', sans-serif;
+
+.container {
+	@media (min-width: 1200px) {
+		width: 970px;
+	}
+}
+
+.no-margins {
+	margin: 0 !important;
+}

@@ -1,0 +1,75 @@
+.hr__header, .hr__footer {
+	background: url('../images/header-bg.png') repeat;
+	padding: 10px 0 0;
+	position: relative;
+
+	&__brand {
+		position: relative;
+		display: block;
+
+		@include MQM(XS) {
+			img {
+				width: 100%;
+			}
+		}
+	}
+
+	&__address {
+		text-align: right;
+		font-family: $opensanscond;
+		font-weight: bold;
+
+		@include MQM(XS) {
+			text-align: left;
+		}
+	}
+
+	&__tel {
+		font-family: $opensanscond;
+		font-size: 18px;
+		color: #0c376a;
+		
+
+		&:hover, &:active, &:focus {
+			text-decoration: none;
+			color: #0c376a;
+		}
+	}
+}
+
+.hr__social {
+	text-align: right;
+	margin-top: 10px;
+	margin-bottom: 5px;
+
+	@include MQM(XS) {
+		margin-bottom: 0;
+		text-align: left;
+	}
+
+	ul {
+		padding: 0;
+		margin: 0;
+	}
+
+	li {
+		list-style: none;
+		display: inline-block;
+		margin-left: 15px;
+
+		@include MQM(XS) {
+			margin-left: 0px;
+			margin-right: 10px;
+		}
+	}
+}
+
+.hr__header {
+	.container {
+		background: url('../images/header-people.png') no-repeat 60% 50%;
+		
+		@include MQM(XS) {
+			background: none;
+		}
+	}
+}

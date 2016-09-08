@@ -1,0 +1,43 @@
+.hr__mainnav {
+	background: url('../images/menu-bg.png') repeat;
+
+	&__ul {
+		padding: 0;
+		margin: 0;
+		@include display(flex);
+		@include justify-content(space-between);
+		@include flex-flow(row);
+		@include flex-wrap(wrap);
+
+		li {
+			display: inline-block;
+			list-style: none;
+			@include flex-grow(1);
+			@include flex-shrink(1);
+			text-align: center;
+
+			a {
+				display: block;
+				height: 30px;
+				line-height: 23px;
+				color: #fff;
+				font-size: 14px;
+				padding: 0 10px;
+
+				&:hover, &:focus, &:active {
+					text-decoration: none;
+				}
+				
+				&:hover {
+					background: url('../images/menu-hover.png');
+				}
+			}
+
+			&.active {
+				a {
+					background: url('../images/menu-active.png');
+				}
+			}
+		}
+	}
+}
