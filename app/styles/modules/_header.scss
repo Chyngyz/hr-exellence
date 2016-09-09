@@ -17,7 +17,6 @@
 	&__address {
 		text-align: right;
 		font-family: $opensanscond;
-		font-weight: bold;
 
 		@include MQM(XS) {
 			text-align: left;

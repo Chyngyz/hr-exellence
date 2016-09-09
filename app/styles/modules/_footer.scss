@@ -6,7 +6,6 @@
 	&__address {
 		text-align: right;
 		font-family: $opensanscond;
-		font-weight: bold;
 		color: #fff;
 
 		@include MQM(XS) {

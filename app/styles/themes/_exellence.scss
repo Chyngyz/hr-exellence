@@ -50,4 +50,40 @@
 		margin: 0 auto;
 		padding-bottom: 30px
 	}
+
+	&__attend {
+		padding: 1px 0 25px;
+		background-color: #de5a28;
+		color: #fff;
+		background-image: url("../images/orange-top.svg");
+    	background-repeat: no-repeat;
+
+    	@include MQM(XS) {
+    		background-image: none;
+    	}
+
+		h2 {
+			color: #fff;
+			margin-top: 15px;
+		}
+
+		.form-control {
+			border: 2px solid #e3e4e8;
+		}
+	}
+}
+
+.hr__btn {
+	text-align: center;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+
+    &--blue {
+    	background-color: #1da3dd;
+    	box-shadow: 0px 3px 0px #216398;
+    }
 }

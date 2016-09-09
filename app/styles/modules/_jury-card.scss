@@ -7,7 +7,7 @@
 		height: 461px;
 		position: relative;
 
-		@include MQM(SM) {
+		@include MQM(991) {
 			width: 50%;
 		}
 
