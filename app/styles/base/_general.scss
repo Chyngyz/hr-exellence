@@ -1,9 +1,11 @@
-$opensans: 'Open Sans', sans-serif;
-$opensanscond: 'Open Sans Condensed', sans-serif;
+// $opensans: 'Open Sans', sans-serif;
+$opensanscond: 'PFDinTextCondPro-Regular', sans-serif;
+// $opensans: 'PFDinTextCondPro', sans-serif;
+$opensans: 'PFDinTextCondPro-Regular', sans-serif;
 
 .container {
 	@media (min-width: 1200px) {
-		width: 970px;
+		width: 1002px;
 	}
 }
 
