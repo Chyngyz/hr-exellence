@@ -4,12 +4,19 @@
 	margin-bottom: 10px;
 
 	&__line {
-		text-align: right;
-		font-size: 12px;
-		color: #fff;
 		display: block;
 		height: 15px;
-		padding: 0 5px;
+	}
+
+	&__details {
+		position: absolute;
+		right: 5px;
+		top: 1px;
+		z-index: 20;
+		text-align: right;
+		font-size: 12px;
+		line-height: 1;
+		color: #fff;
 	}
 
 	&__progress {
