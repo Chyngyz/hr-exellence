@@ -1,0 +1,29 @@
+.hr__members {
+	@include display(flex);
+	@include flex-wrap(wrap);
+	@include justify-content(space-around);
+
+	&__item {
+		position: relative;
+		width: 140px;
+		height: 161px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		
+		&:nth-child(even) {
+			background-image: url('../images/blue-shape.svg');
+			
+		}
+
+		&:nth-child(odd) {
+			background-image: url('../images/orange-shape.svg');
+		}
+
+		img {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			@include transform(translate(-50%, -50%));
+		}
+	}
+}
