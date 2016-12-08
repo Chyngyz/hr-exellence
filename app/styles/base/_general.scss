@@ -2,6 +2,7 @@
 $opensanscond: 'PFDinTextCondPro-Regular', sans-serif;
 // $opensans: 'PFDinTextCondPro', sans-serif;
 $opensans: 'PFDinTextCondPro-Regular', sans-serif;
+$pfdinbold: 'PFDinTextCondPro-Bold', sans-serif;
 
 .container {
 	@media (min-width: 1200px) {
@@ -11,4 +12,10 @@ $opensans: 'PFDinTextCondPro-Regular', sans-serif;
 
 .no-margins {
 	margin: 0 !important;
+}
+
+.hr__text {
+	&--orange {
+		color: #ffa809;
+	}
 }

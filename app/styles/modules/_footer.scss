@@ -3,6 +3,10 @@
 	padding: 10px 0 0;
 	position: relative;
 
+	&.hr__footer__school {
+		padding: 20px 0 50px;
+	}
+
 	&__address {
 		text-align: right;
 		font-family: $opensanscond;
@@ -11,6 +15,42 @@
 		@include MQM(XS) {
 			text-align: left;
 			margin-top: 20px;
+		}
+	}
+
+	&__brand {
+		@include MQM(SM) {
+			text-align: center;
+
+			&.hr__school-brand {
+				img {
+					width: auto;
+				}
+			}
+		}
+	}
+
+	&-school {
+		&__title {
+			padding-top: 20px;
+			text-align: center;
+			font-family: $pfdinbold;
+			.hr__footer-school--orange {
+				font-size: 49px;
+				line-height: 1;
+			}
+			.hr__footer-school--white {
+				font-size: 36px;
+				line-height: 1;
+			}
+		}
+
+		&--orange {
+			color: #ffa809;
+		}
+
+		&--white {
+			color: #fff;
 		}
 	}
 }

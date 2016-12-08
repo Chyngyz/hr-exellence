@@ -14,6 +14,50 @@
 		}
 	}
 
+	&-school {
+		padding-bottom: 10px;
+		position: relative;
+
+		&__brand {
+			width: 140px;
+			display: block;
+
+			@include MQM(SM) {
+				margin-left: auto;
+				margin-right: auto;
+			}
+			img {
+				width: 100%;
+			}
+		}
+
+		&--orange {
+			color: #ffa809;
+		}
+
+		&--blue {
+			color: #0c376a;
+		}
+
+		&__title {
+			padding-top: 50px;
+			text-align: center;
+			font-family: $pfdinbold;
+
+			@include MQM(SM) {
+				padding-top: 20px;
+			}
+			.hr__header-school--orange {
+				font-size: 49px;
+				line-height: 1;
+			}
+			.hr__header-school--blue {
+				font-size: 36px;
+				line-height: 1;
+			}
+		}
+	}
+
 	&__address {
 		text-align: right;
 		font-family: $opensanscond;
@@ -22,9 +66,11 @@
 			text-align: left;
 		}
 	}
-
+	&__bywind {
+		width: 170px;
+	}
 	&__tel {
-		font-family: $opensanscond;
+		font-family: $pfdinbold;
 		font-size: 18px;
 		color: #0c376a;
 		
@@ -68,6 +114,12 @@
 		background: url('../images/header-people.png') no-repeat 60% 50%;
 		
 		@include MQM(XS) {
+			background: none;
+		}
+	}
+
+	&.hr__header-school {
+		.container {
 			background: none;
 		}
 	}

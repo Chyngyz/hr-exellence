@@ -1,0 +1,169 @@
+.hr {
+	&__schero {
+		background: url('../images/school-hero.png') no-repeat center;
+		background-size: cover;
+		background-position: 50% 50%;
+		padding: 10px 0;
+		position: relative;
+
+		&:before, &:after {
+			content: '';
+			position: absolute;
+			height: 10px;
+			width: 100%;
+			left: 0;
+		}
+
+		&:before {
+			top: 0;
+			@include linear-gradient(to right, #0c376a, #ffa809, $fallback: #ffa809);
+		}
+
+		&:after {
+			bottom: 0;
+			@include linear-gradient(to left, #0c376a, #ffa809, $fallback: #ffa809);
+		}
+
+		&__text {
+			padding-top: 20px;
+			color: #fff;
+			text-shadow: 0px 2px 7px #000;
+			margin-bottom: 100px;
+
+			@include MQM(MD) {
+				margin-bottom: 50px;
+			}
+
+			@include MQM(XS) {
+				margin-bottom: 20px;
+			}
+		}
+
+		&__heading {
+			text-align: right;
+			color: #fff;
+			font-family: $pfdinbold;
+			text-transform: uppercase;
+			text-shadow: 0px 1px 8px #000;
+
+			@include MQM(XS) {
+				text-align: left;
+			}
+
+			h3 {
+				font-size: 26px;
+			}
+		}
+	}
+
+	&__sccontent {
+		padding-top: 20px;
+		padding-bottom: 60px;
+		background: url('../images/header-bg.png') repeat;
+
+		&__heading {
+			font-family: $pfdinbold;
+			color: #ffa809;
+			text-transform: uppercase;
+			margin-bottom: 25px;
+			font-size: 46px;
+		}
+
+		&__slogan {
+			text-align: center;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			font-family: $opensanscond;
+			font-size: 46px;
+			color: #fff;
+			border-radius: 20px;
+			line-height: 1.2;
+			padding: 7px;
+			@include linear-gradient(to right, #03449c, #ffa809, $fallback: #ffa809);
+
+			@include MQM(SM) {
+				font-size: 32px;
+			}
+		}
+
+		&__panel {
+			position: relative;
+			height: 250px;
+			width: 100%;
+			border-radius: 20px;
+			overflow: hidden;
+			margin-bottom: 15px;
+
+			@include MQM(SM) {
+				height: 150px;
+			}
+
+
+			&--orange {
+				background-color: #ffa809;
+			}
+
+			&--blue {
+				background-color: #0c376a;
+			}
+
+			&__bg {
+				color: rgba(255, 255, 255, 0.1);
+				line-height: 0.9;
+				font-family: $pfdinbold;
+				font-size: 80px;
+				text-transform: uppercase;
+				word-break: break-all;
+
+				@include MQM(MD) {
+					font-size: 100px;
+				}
+			}
+
+			&__title {
+				position: absolute;
+				text-align: center;
+				color: #fff;
+				font-family: $pfdinbold;
+				font-size: 24px;
+				text-transform: uppercase;
+				top: 50%;
+				left: 50%;
+				@include transform(translate(-50%, -50%));
+			}
+		}
+
+		&__team {
+			margin-bottom: 15px;
+			&__avatar {
+				border-radius: 50%;
+				overflow: hidden;
+				margin-left: auto;
+				margin-right: auto;
+				width: 170px;
+				height: 170px;
+				margin-bottom: 20px;
+
+				img {
+					width: 100%;
+					height: auto;
+				}
+			}
+
+			&__name {
+				font-family: $pfdinbold;
+				font-size: 18px;
+				color: #0c376a;
+				text-align: center;
+				text-transform: uppercase;
+			}
+
+			&__position {
+				font-family: $opensanscond;
+				color: #ffa809;
+				text-align: center;
+				text-transform: uppercase;
+			}
+		}
+	}
+}
