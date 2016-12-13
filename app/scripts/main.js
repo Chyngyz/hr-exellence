@@ -18,6 +18,27 @@ $(document).ready(function(){
                 height: 50
             });
         });
-    })
+    });
+
+    var owl = $("#wind_testimonials");
+ 
+    owl.owlCarousel({
+        items : 3,
+        itemsDesktop : [1000,3],
+        itemsTablet: [600,2],
+        itemsMobile : [400, 1],
+        navigation : false,
+        pagination : true
+     
+    });
+
+
+    $('.wind__news__bg-text, .wind__news__horizontal-text').dotdotdot({
+        height: 46
+    });
+
+    $('.wind__news__sm-text').dotdotdot({
+        height: 110
+    });
     
 });

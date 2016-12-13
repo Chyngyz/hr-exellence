@@ -2,6 +2,7 @@
 $opensanscond: 'PFDinTextCondPro-Regular', sans-serif;
 // $opensans: 'PFDinTextCondPro', sans-serif;
 $opensans: 'PFDinTextCondPro-Regular', sans-serif;
+$pfdin: 'PFDinTextCondPro-Regular', sans-serif;
 $pfdinbold: 'PFDinTextCondPro-Bold', sans-serif;
 
 .container {
@@ -18,4 +19,16 @@ $pfdinbold: 'PFDinTextCondPro-Bold', sans-serif;
 	&--orange {
 		color: #ffa809;
 	}
+}
+
+.mt-20 {
+	margin-top: 20px;
+}
+
+.mb-30 {
+	margin-bottom: 30px;
+}
+
+.mb-2 {
+	margin-bottom: 2px;
 }

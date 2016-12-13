@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 585 200" style="enable-background:new 0 0 585 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#DC5A27;}
+	.st1{fill:#F39623;}
+	.st2{fill:#1F6296;}
+	.st3{fill:#1CA3DC;}
+	.st4{fill:#813924;}
+	.st5{fill:#0C3B51;}
+	.st6{fill:#7E4F20;}
+</style>
+<g>
+	<polygon class="st0" points="5,6.9 46.5,6.9 87.9,193.1 46.5,193.1 	"/>
+	<polygon class="st1" points="129.3,6.9 87.9,6.9 46.5,193.1 87.9,193.1 	"/>
+	<polygon class="st2" points="87.9,6.9 129.3,6.9 170.8,193.1 129.3,193.1 	"/>
+	<polygon class="st3" points="212.2,6.9 170.8,6.9 129.3,193.1 170.8,193.1 	"/>
+	<rect x="230.1" y="6.9" class="st0" width="39.3" height="186.2"/>
+	<rect x="289.5" y="6.9" class="st2" width="39.3" height="186.2"/>
+	<rect x="388.2" y="6.9" class="st0" width="39.3" height="186.2"/>
+	<rect x="448" y="6.9" class="st1" width="39.3" height="186.2"/>
+	<polygon class="st3" points="289.5,6.9 388.2,193.1 427.5,193.1 328.8,6.9 	"/>
+	<path class="st3" d="M448,43.2V6.9h39.3c56.8,0,92.7,37.4,92.7,93.1c0,65.8-37.9,93.1-92.7,93.1V157c53.6,0,57.1-37.6,57.1-57
+		c0-32.9-20.8-57-57.1-57C456.1,43,448,43.2,448,43.2z"/>
+	<polygon class="st4" points="46.5,193.1 62.5,78.9 67.2,100 	"/>
+	<polygon class="st5" points="129.3,193.1 145.3,78.9 150.1,100 	"/>
+	<polygon class="st6" points="87.9,6.9 103.9,121.1 108.6,100 	"/>
+	<polygon class="st1" points="230.1,183.3 269.4,6.9 269.4,193.1 230.1,193.1 	"/>
+	<polygon class="st4" points="230.1,162.8 269.4,6.9 230.1,183.3 	"/>
+	<polygon class="st5" points="289.5,6.9 328.8,81.1 328.8,95.1 	"/>
+	<polygon class="st5" points="388.2,118.9 388.2,193.1 382.4,182.3 	"/>
+	<polygon class="st6" points="448,43.2 487.3,43.2 487.3,51.2 	"/>
+	<path class="st5" d="M487.3,157c12.3,0,57.1,0.4,57.1-57c0,60.9-44.7,63.1-57.1,60.2V157z"/>
+</g>
+</svg>

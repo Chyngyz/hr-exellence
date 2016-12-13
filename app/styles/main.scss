@@ -1,11 +1,15 @@
 @import 'bourbon/bourbon';
 
 @import 'vendor/bootstrap/bootstrap';
+@import 'vendor/owl/owl.carousel';
+@import 'vendor/owl/owl.theme';
+
 @import 'utils/responsive';
 
 @import 'base/general';
 @import 'base/fonts';
 
+@import 'themes/home';
 @import 'themes/exellence';
 @import 'themes/school';
 
