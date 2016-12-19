@@ -20,7 +20,7 @@ $(document).ready(function(){
         });
     });
 
-    var owl = $("#wind_testimonials");
+    var owl = $('#wind_testimonials');
  
     owl.owlCarousel({
         items : 3,

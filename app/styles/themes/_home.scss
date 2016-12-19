@@ -116,10 +116,44 @@ $ligth-orange: #f59824;
 			}
 		}
 
+		&__dropdown {
+			position: absolute;
+			top: 100%;
+			left: -2px;
+			background-color: #fff;
+			padding: 0;
+			margin: 0;
+			color: #000;
+			display: none;
+			z-index: 1;
+		    border: 1px solid #bbb;
+		    border-top: none;
+		    min-width: 103%;
+
+			& li {
+				display: block !important;
+				text-align: left;
+    			max-width: 180px;
+
+				& > a {
+					color: #000;
+					line-height: 1.2;
+				    padding: 8px 10px;
+				    white-space: nowrap;
+				    text-overflow: ellipsis;
+				    overflow: hidden;	
+				}
+			}
+		}
+
 		&__item {
 			@include flex-grow(1);
 			text-align: center;
 			position: relative;
+
+			&--has-dropdown {
+				position: relative;
+			}
 
 			&.active {
 				background: url('../images/man-silhouette.svg') no-repeat 10%, url('../images/man-silhouette.svg') no-repeat 90%;
@@ -131,6 +165,10 @@ $ligth-orange: #f59824;
 						color: #145c7b;
 					}
 				}
+			}
+
+			&:hover .wind__nav__dropdown {
+				display: block;
 			}
 		}
 
